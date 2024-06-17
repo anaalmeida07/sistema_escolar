@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#logo {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+#logo img {
+    width: 240px;
+    height: 240px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-left:rgb(99, 99, 99) solid 1px; 
+    border-bottom: rgb(99, 99, 99)  solid 1px; 
+    border-top:rgb(99, 99, 99)solid 1px; 
+}
+
+#caixa_login {
+    background-color: rgb(254, 254, 254);
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border-end-end-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: rgb(99, 99, 99) solid 1px; 
+    border-bottom: rgb(99, 99, 99) solid 1px; 
+    border-top: rgb(99, 99, 99) solid 1px; 
+
+}
+
+#caixa_login h1 {
+    font: 15px 'Montserrat';
+    
+    color: #0B5CF4;
+}
+
+#caixa_login table {
+    font: 15px 'Montserrat';
+    color: rgb(99, 99, 99);
+   
+}
+
+#caixa_login input {
+    font: 15px 'Montserrat';
+
+    color: rgb(99, 99, 99);
+    height: 10px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#caixa_login input:hover {
+    border: 1px solid #000;
+
+}
+
+#caixa_login input:focus {
+    border: 1px solid #000;
+
+    outline: none;
+}
+
+#caixa_login input[type=submit] {
+    background-color: #0B5CF4;
+    color: rgb(254, 254, 254);
+    border: none;
+    height: 35px;
+    width: 323px;
+    font: 15px 'Montserrat';
+    cursor: pointer;
+    align-items: center;
+    
+}
+
+#caixa_login input[type=submit]:hover {
+    background-color: #3cce32;
+
+    
+}
+
+
+h2{
+    font: 15px 'Montserrat';
+    color: #ffff;
+    background: #900;
+    text-align:center;
+    padding: 5px;
+    width: 200px;
+    float: left;
+    margin: 28px 0 10px 10px;
+    border: 1px solid #ccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
