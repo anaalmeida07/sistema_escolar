@@ -1,5 +1,13 @@
 <?php
+    Function conectar(){
+        $servidor = "localhost";
+        $usuario = "root";
+        $senha = "";
+        $bd = "sistemaEscolar";
 
-$db = mysqli_connect("localhost", "root", "");
-$conexao = mysqli_select_db("sistemaEscolar");
+        $con = new mysqli($servidor, $usuario, $senha, $bd);
+        return $con;
+    }
+
+    $conexao = conectar();
 ?>

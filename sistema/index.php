@@ -7,7 +7,7 @@
     <title>SISTEMA ESCOLAR</title>
     <link rel="stylesheet" type="text/css" href="css/estilo.css" />
 
-    <? require "conexao.php" ?>
+    <?php require "conexao.php" ?>
 </head>
 
 <body>
